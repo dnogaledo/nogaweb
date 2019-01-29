@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Daniel Nogaledo Martín</title>
+	<script src="./../public/nogajobs.js"></script>
+	<script>
+		$(document).ready(function(){
+				$("#carousel-nogajobs").carousel();
+			}
+		);
+	</script>
+</head>
+<body class="bg-grey-400">
+	<header class="mb-1 bg-white">
+		<div class="d-block d-lg-none">
+			<div class="container main-menu">			
+				
+				<nav class="navbar navbar-expand-lg navbar-light bg-light d-flex">
+					<div>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tiny-bar" aria-controls="tiny-bar" aria-expanded="false" aria-label="Toggle navigation">
+				    		<span class="navbar-toggler-icon"></span>
+				 		</button>
+				 	</div>
+					<div class="align-self-center align-items-center">
+						<em><a class="navbar-brand nav-link  logo" href="#">InfoNoga</a></em>
+					</div>
+					
+					
+
+				  <div class="collapse navbar-collapse sub-main-menu" id="tiny-bar">
+				    <ul class="nav navbar-nav mr-auto">
+						<li class="nav-item p-1">
+							<a class="nav-link  link-color-reverse" href="#">Mi InfoNoga</a>
+						</li>
+						<li class="nav-item p-1">
+							<a class="nav-link  link-color-reverse" href="#">Buscar ofertas</a>
+						</li>
+						<li class="nav-item p-1">
+							<a class="nav-link " href="#">Mis CVs</a>
+						</li>
+						<li class="nav-item p-1">
+							<a class="nav-link " href="#">Candidaturas</a>
+						</li>
+						<li class="nav-item p-1">
+							<a class="nav-link " href="#">Mensajes</a>
+						</li>
+						<li class="nav-item p-1">
+							<a class="nav-link " href="#">Quién me ve</a>
+						</li>
+						<li class="nav-item p-1">
+							<a class="nav-link " href="#">Ajustes</a>
+						</li>
+						<li class="nav-item p-1">
+							<a class="nav-link " href="#">Ayuda</a>
+						</li>
+						<li class="nav-item p-1">
+							<a class="nav-link border-top" href="#">Empleo</a>
+						</li>
+						<li class="nav-item p-1">
+							<a class="nav-link border-top" href="#">Executive</a>
+						</li>
+						<li class="nav-item p-1">
+							<a class="nav-link border-top" href="#">Formación</a>
+						</li>
+						<li class="nav-item p-1">
+							<a class="nav-link border-top" href="#">Consejos</a>
+						</li>
+						<li class="nav-item p-1">
+							<a class="nav-link border-top" href="#">Cerrar sesión</a>
+						</li>
+					</ul>
+				  </div>
+				</nav>
+			</div>
+
+		</div>
+		<div class="d-none d-lg-block">
+			<div class="d-flex container main-menu">			
+				<ul class="nav mr-auto d-flex align-items-center">
+					<li class="nav-item">
+						<em><a class="nav-link logo" href="#">InfoNoga</a></em>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Empleo</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link "  href="#">Executive</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="#">Formación</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="#">Consejos</a>
+					</li>
+				</ul>
+		
+				<ul class="nav d-flex align-items-center">
+					<li class="nav-item d-flex align-items-center">
+						<div class="profile">
+							<img class="rounded-circle" src="../public/fonts/DanielNM.png" alt="">
+						</div>
+						<a class="nav-link " href="#">Daniel</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link "  href="#">Cerrar sesión</a>
+					</li>
+				</ul>
+			</div>
+			<div class="p-2 bg-grey-300 sub-main-menu">
+				<div class="container d-flex">
+					<ul class="nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link  link-color-reverse" href="#">Mi InfoNoga</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link  link-color-reverse" href="#">Buscar ofertas</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="#">Mis CVs</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="#">Candidaturas</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="#">Mensajes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="#">Quién me ve</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="#">Ajustes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="#">Ayuda</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="bg-nogajobsX1 col-xl-24 align-items-center p-0 mb-2">
+			<h1 class="p-3 pt-4 pb-4">Buenos días, Daniel</h1>
+
+			<div class="bg-nogajob-form row m-0 p-2 text-white">
+				<div class="col-lg-11 col-md-10 col-sm-24 p-2 ">
+					<label for="empresa">Busco ofertas de...</label>
+					<input id="empresa" class="form-control" type="text">
+				</div>
+				<div class="col-lg-11 col-md-10 col-sm-24 p-2 ">
+					<div>
+						<input type="radio" id="nacional" name="localizacion">
+						<label for="nacional">en España</label>
+
+						<input type="radio" id="extranjero" name="localizacion">
+						<label for="extranjero">en el extranjero</label>
+					</div>
+					
+					<input id="provincia" class="form-control" type="text">
+				</div>
+				<div class="col-lg-2 col-md-4 pl-md-0 p-2 d-flex align-self-end">
+					<button type="button" class="btn btn-orange w-100">Buscar</button>
+				</div>
+			</div>
+		</div>
+		<div class="p-2 bg-primary d-flex mb-2">
+			<div class="col-md-4 d-flex justify-content-center align-items-center">
+				<div class="icon-alert-company">
+					<img src="../public/fonts/Petrochiclana.png" alt="petrochiclana">	
+				</div>
+			</div>
+			<div class="col-md-20 text-white">
+				<h5><b>¿Estaría intersado/a en un puesto de técnico de laboratorio en PetroChiclana S.A.?</b></h5>
+				<p>Petrochiclana S.A. ha visto tu CV en nuestra base de datos y le ha parecido interesante para un puesto de técnico de laboratorio.</p>
+				<a href="#" class="text-white"><span class="p-1"><u>Sí, me interesa</u></span></a>
+				<a href="#" class="text-white"><span class="p-1"><u>Ahora no, gracias</u></span></a>
+			</div>
+		</div>
+
+		<div class="d-sm-flex information-jobs mb-2">
+			<div class="col-xs-24 col-sm-8 d-flex p-0">
+				<div class="bg-white w-100 mr-sm-2 p-3">
+					<h5><b><span class="big-size">163 </span> Ofertas nuevas</b></h5>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#">5 de "laboratorio en toda España"</a>
+						</li>
+						<li>
+							<a href="#">1 de "laboratorio en Madrid"</a>
+						</li>
+						<li>
+							<a href="#">157 de "Todas las ofertas en Madrid"</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-24 col-sm-8 d-flex p-0">
+				<div class="bg-white w-100 mr-sm-2 p-3">
+					<h5><b><span class="big-size">13 </span> Visitas a tu CV</b></h5>
+					<p>
+						<a href="#">13 empresas</a> han encontrado tu CV en las últimas 2 semanas
+					</p>
+					<p>
+						<a href="#">Ir a Quién me ve</a>
+					</p>
+				</div>
+			</div>
+			<div class="col-xs-24 col-sm-8 d-flex p-0">
+				<div class="bg-white w-100 p-3">
+					<h5><b><span class="big-size">58 </span> Candidaturas activas</b></h5>
+					<p>Hay novedades en tus candidaturas</p>
+					<p><a href="#">Ir a candidaturas</a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-24 p-4 bg-white list-jobs mb-2">
+			<div class="border-bottom p-1">
+				<h4 class="font-weight-bold">Ofertas para ti</h4>
+				<p>Los inscritos en Auxiliar laboratorio y técnico de laboratorio en Madrid también se inscribieron en...</p>
+			</div>
+			<ul class="list-unstyled">
+				<li class="border-bottom p-2 pt-4 pb-4">
+					<h6 class="font-weight-bold">Técnico de Metrología</h6>
+					<a href="#">
+						<u>Industrias Mordor S.A.</u>
+					</a>
+					<div>
+						<span class="mr-2 border-right">Tres cantos</span>
+						<span class="ml-2">15 de ene</span>
+					</div>
+					<div>
+						<span class="mr-2">Jornada completa</span>
+						<span class="ml-2">Salario no especificado</span>
+					</div>
+				</li>
+				<li class="border-bottom p-2 pt-4 pb-4">
+					<h6 class="font-weight-bold">Operario Producción</h6>
+					<a href="#">
+						<u>Industrias Surtur</u>
+					</a>
+					<div>
+						<span class="mr-2 border-right">Alcorcón</span>
+						<span class="ml-2">17 de ene</span>
+					</div>
+					<div>
+						<span class="mr-2">Jornada completa</span>
+						<span class="ml-2">Salario no especificado</span>
+					</div>
+				</li>
+				<li class="border-bottom p-2 pt-4 pb-4">
+					<h6 class="font-weight-bold">Operario laboratorio farmaceutico</h6>
+					<a href="#">
+						<u>Mjolnir Albacete S.A.</u>
+					</a>
+					<div>
+						<span class="mr-2 border-right">Tres Cantos</span>
+						<span class="ml-2">30 de ene</span>
+					</div>
+					<div>
+						<span class="mr-2">Jornada completa</span>
+						<span class="ml-2">Salario no especificado</span>
+					</div>
+				</li>
+				<li class="border-bottom p-2 pt-4 pb-4">
+					<h6 class="font-weight-bold">Consultor/a calidad laboratorio</h6>
+					<a href="#">
+						<u>Base Starkiller</u>
+					</a>
+					<div>
+						<span class="mr-2 border-right">San Sebastián de los Reyes</span>
+						<span class="ml-2">8 de ene</span>
+					</div>
+					<div>
+						<span class="mr-2">Jornada completa</span>
+						<span class="ml-2">Salario no especificado</span>
+					</div>
+				</li>
+				<li class="border-bottom p-2 pt-4 pb-4">
+					<h6 class="font-weight-bold">Técnico prevención de riesgos</h6>
+					<a href="#">
+						<u>Astilleros de Corelia</u>
+					</a>
+					<div>
+						<span class="mr-2 border-right">Las Rozas de Madrid</span>
+						<span class="ml-2">19 de ene</span>
+					</div>
+					<div>
+						<span class="mr-2">Jornada completa</span>
+						<span class="ml-2">Salario no especificado</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+	
+
+		<div class="bg-white p-4 mb-2">
+			<h6 class="font-weight-bold p-2 border-bottom">Club #AlegríasNogaJobs</h6>
+		
+			<div>
+			
+				<div id="carousel-nogajobs" class="carousel slide" data-ride="carousel">
+					
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				    	<div class="d-flex flex-column p-4">
+			    			<div class="align-self-center">12/10/2017</div>
+				    		<div class="align-self-center profile-sub rounded-circle bg-grey-400"></div>		
+				    		<div class="align-self-center text-grey-600 p-2">Boba Fett</div>
+				    		<div class="align-self-center text-grey-800">Gracias al dominio Jutt he encontrado mi verdadera pasión como cazarrecompensas</div>     			   		
+				    	</div>
+				    </div>
+				    <div class="carousel-item">
+				        <div class="d-flex flex-column p-4">
+				    		<div class="align-self-center">12/12/2018</div>
+				    		<div class="align-self-center profile-sub rounded-circle bg-grey-400"></div>		
+				    		<div class="align-self-center text-grey-600 p-2">Uruk hai</div>
+				    		<div class="align-self-center text-grey-800">Con indusdrias Mordor S.A. he encontrado una oportunidad</div>  		      	
+				    	</div>	
+				    </div>
+				    <div class="carousel-item">
+				      	  <div class="d-flex flex-column p-4">
+				    		<div class="align-self-center">03/11/2018</div>
+				    		<div class="align-self-center profile-sub rounded-circle bg-grey-400"></div>		
+				    		<div class="align-self-center text-grey-600 p-2">Surtur</div>
+				    		<div class="align-self-center text-grey-800">Tras destruir Asgard, no tenía ningún objetivo en la vida. Ahora sí.</div>  	      	
+				    	</div>
+				    </div>
+				    <div class="carousel-item">
+				      	  <div class="d-flex flex-column p-4">
+				    		<div class="align-self-center">03/09/2018</div>
+				    		<div class="align-self-center profile-sub rounded-circle bg-grey-400"></div>		
+				    		<div class="align-self-center text-grey-600 p-2">Caballero de plata</div>
+				    		<div class="align-self-center text-grey-800">Gracias a Nogajobs y gracias a Pegaso.</div>  	      	
+				    	</div>
+				    </div>
+				  </div>
+				  <ol class="carousel-indicators">
+					    <li data-target="#carousel-nogajobs" data-slide-to="0" class="active bg-grey-600 rounded-circle"></li>
+					    <li data-target="#carousel-nogajobs" data-slide-to="1" class="bg-grey-600 rounded-circle"></li>
+					    <li data-target="#carousel-nogajobs" data-slide-to="2" class="bg-grey-600 rounded-circle"></li>
+					    <li data-target="#carousel-nogajobs" data-slide-to="3" class="bg-grey-600 rounded-circle"></li>
+				  </ol>
+				</div>
+
+			</div>
+
+		</div>
+		
+		<div id="div-plants" class="p-3 text-white">
+			<h3>"La fuerza es poderosa en ti, joven padawan"</h3>
+			<p>Un jedi anónimo</p>
+		</div>
+
+	</div>
+	
+	<footer class="p-4 bg-grey-500">
+		<div class="container">
+			<div class="row border-bottom border-grey-600">
+				<div class="col-md-6">
+					<h6 class="font-weight-bold">Nosotros</h6>
+					<ul class="list-unstyled">
+						<li><a href="#">Ayuda</a></li>
+						<li><a href="#">Seguridad</a></li>
+						<li><a href="#">Condiciones legales</a></li>
+						<li><a href="#">Política de Privacidad</a></li>
+						<li><a href="#">Uso del servicio</a></li>
+						<li><a href="#">Política de cookies</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<h6 class="font-weight-bold">Sobre NogaJobs</h6>
+					<ul class="list-unstyled">
+						<li><a href="#">NogaJobs hoy</a></li>
+						<li><a href="#">Trabaja con nostros</a></li>
+						<li><a href="#">Ofertas de empleo</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<h6 class="font-weight-bold">+ NogaJobs</h6>
+					<ul  class="list-unstyled">
+						<li><a href="#">Orientación laboral</a></li>
+						<li><a href="#">NogaJobs Formación</a></li>
+						<li><a href="#">Blog empresas</a></li>
+						<li><a href="#">Oferte di lavoro in Italia</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<h6 class="font-weight-bold">Prensa</h6>
+					<ul  class="list-unstyled">
+						<li><a href="#">Indicadores de Nogajobs</a></li>
+						<li><a href="#">Notas de prensa</a></li>
+						<li><a href="#">Contacto de prensa</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="d-flex border-bottom border-grey-600 pt-4 pb-4">
+				<div>Síguenos</div>
+				<div class="socials d-flex">
+					<div class="socials rounded-circle"></div>
+					<div class="socials rounded-circle"></div>
+					<div class="socials rounded-circle"></div>
+					<div class="socials rounded-circle"></div>
+				</div>
+			</div>
+
+		</div>
+		
+	</footer>
+</body>
+</html>

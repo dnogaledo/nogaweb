@@ -1,0 +1,22 @@
+$theme-colors: (
+  "primary": #167db7,
+  "grey-100": #f8f9fa,
+  "grey-200": #e9ecef,
+  "grey-300": #dee2e6,
+  "grey-400": #ced4da,
+  "grey-500": #adb5bd,
+  "grey-600": #6c757d,
+  "grey-700": #495057,
+  "grey-800": #343a40,
+  "grey-900": #212529,
+  "orange": #ff6340,
+);
+
+$grid-columns: 24 !default;
+
+$container-max-widths: (
+  xl: 1140px,
+  lg: 100%,
+  md: 100%,
+  sm: 100%,
+) !default;
